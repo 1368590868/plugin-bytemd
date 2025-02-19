@@ -1,0 +1,27 @@
+{
+    "name": "plugin-bytemd-rough",
+    "version": "1.0.0",
+    "description": "A plugin for bytemd using rough-notation",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build",
+        "publish": "npm publish --access public"
+    },
+    "keywords": [
+        "bytemd",
+        "plugin",
+        "rough-notation",
+        "code-copy"
+    ],
+    "author": "mu mu",
+    "license": "MIT",
+    "dependencies": {
+        "bytemd": "^1.21.0",
+        "rough-notation": "^0.5.1"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.2"
+    }
+}
